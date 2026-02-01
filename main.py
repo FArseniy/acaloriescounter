@@ -15,7 +15,7 @@ if not TG_BOT_TOKEN or not GEMINI_API_KEY:
     raise ValueError("❌ ОШИБКА: Не найдены ключи в .env файле!")
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 bot = Bot(token=TG_BOT_TOKEN)
 dp = Dispatcher()
 
