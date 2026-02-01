@@ -20,7 +20,7 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 
 # ВЫБОР МОДЕЛИ
 # Можно ставить 'gemini-2.0-flash' или 'gemini-2.5-flash' (если доступна)
-MODEL_ID = 'gemini-2.0-flash' 
+MODEL_ID = 'gemini-2.5-flash' 
 
 bot = Bot(token=TG_BOT_TOKEN)
 dp = Dispatcher()
